@@ -3,8 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tirupati Rohini | Machine Learning Portfolio</title>
-  <meta name="description" content="Portfolio of Tirupati Rohini, a Machine Learning student focused on AI, data analysis, and intelligent systems.">
+  <title>Tirupati Rohini | AI & Machine Learning Portfolio</title>
+  <meta
+    name="description"
+    content="Tirupati Rohini is an AI and Machine Learning enthusiast passionate about intelligent systems, data analysis, robotics, and software development."
+  >
+  <meta
+    name="keywords"
+    content="Tirupati Rohini, AI developer, machine learning portfolio, software engineer, robotics, ML projects, AI projects"
+  >
+  <meta name="author" content="Tirupati Rohini">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://YOUR-RENDER-URL.onrender.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Tirupati Rohini | AI & Machine Learning Portfolio">
+  <meta property="og:description" content="Portfolio showcasing AI, ML, robotics, and software projects by Tirupati Rohini.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://YOUR-RENDER-URL.onrender.com">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tirupati Rohini | AI & ML Portfolio">
+  <meta name="twitter:description" content="AI and Machine Learning Portfolio by Tirupati Rohini">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -12,14 +33,15 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
   <header class="site-header">
     <nav class="navbar" aria-label="Primary navigation">
       <a class="brand" href="index.html">TR</a>
-      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Toggle navigation">
-      <label class="nav-toggle-label" for="nav-toggle">
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Toggle navigation menu" aria-controls="primary-menu">
+      <label class="nav-toggle-label" for="nav-toggle" aria-hidden="true">
         <span></span>
       </label>
-      <ul class="nav-links">
+      <ul class="nav-links" id="primary-menu">
         <li><a class="active" href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="projects.html">Projects</a></li>
@@ -30,16 +52,16 @@
     </nav>
   </header>
 
-  <main>
-    <section class="hero">
+  <main id="main-content">
+    <section class="hero" aria-labelledby="home-title">
       <div class="hero-copy">
         <p class="eyebrow">Machine Learning Portfolio</p>
-        <h1>Tirupati Rohini</h1>
-        <p class="title">Machine Learning Enthusiast</p>
+        <h1 id="home-title">Tirupati Rohini</h1>
+        <p class="title">AI Developer | Machine Learning Developer | Robotics Enthusiast</p>
         <p class="intro">
-          Passionate about building intelligent systems using machine learning and data analysis.
-          I enjoy solving real-world problems through AI and continuously improving my skills
-          through projects and research.
+          I am Tirupati Rohini, an aspiring AI and Machine Learning developer passionate about
+          building intelligent systems, robotics applications, and software projects.
+          My interests include machine learning, NLP, computer vision, and real-world AI solutions.
         </p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="projects.html">View Projects</a>
@@ -56,5 +78,8 @@
       </div>
     </section>
   </main>
+  <footer class="footer">
+    <p>&copy; 2026 Tirupati Rohini | AI &amp; Machine Learning Portfolio</p>
+  </footer>
 </body>
 </html>
